@@ -1,4 +1,4 @@
-avi=`find ${PATH}/charades/Charades_v1_480 -name \*.mp4`
+avi=`find /charades/Charades_v1_480 -name \*.mp4`
 
 for i in $avi; do
   dir=`echo $i | cut -d. -f1`
